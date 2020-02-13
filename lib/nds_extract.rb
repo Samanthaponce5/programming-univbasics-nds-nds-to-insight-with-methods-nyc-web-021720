@@ -20,7 +20,7 @@ total
    while index < nds.length
     i = nds[index]
    index += 1 
-  name_total = i[:name],gross_for_director(i)
+   name_total = i[:name],gross_for_director(i)
   arr << name_total
 end
 arr.to_h
